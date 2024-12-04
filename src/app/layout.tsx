@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     title: "Luca Palminteri - Software Engineer Portfolio",
     description:
       "Full Stack Web Developer and DevOps Engineer with expertise in TypeScript, React, Next.js, Node.js, and more.",
-    url: "https://lucapalminteri.com",
+    url: "https://portfolio4-three-neon.vercel.app/",
     type: "website",
     siteName: "Luca Palminteri Portfolio",
     locale: "en_US",
     images: [
       {
-        url: "https://lucapalminteri.com/luca.jpeg",
+        url: "https://portfolio4-three-neon.vercel.app/luca.jpeg",
         width: 1200,
         height: 630,
         alt: "Luca Palminteri Portfolio preview image",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Luca Palminteri - Software Engineer Portfolio",
     description:
       "Full Stack Web Developer and DevOps Engineer with expertise in TypeScript, React, Next.js, Node.js, and more.",
-    images: ["https://lucapalminteri.com/luca.jpeg"],
+    images: ["https://portfolio4-three-neon.vercel.app/luca.jpeg"],
   },
   viewport: "width=device-width, initial-scale=1.0",
   icons: {
@@ -58,11 +58,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} antialiased`}>{children}</body>
